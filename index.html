@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/CSS/vendor.css">
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/responsive.css">
     <title>Document</title>
 </head>
 <body>
     <!-- ---------------Hero Section------------- -->
     <div class="hero-section">
         <nav class="navbar">
+            <input id="nav-toggle" type="checkbox">
             <a href="#">
                 <img src="./props/svg/01-hero_section/01-logo.svg" alt="logo" class="nav-logo"></a>
                 <ul class="nav-links">
@@ -31,6 +33,11 @@
                 </a>
 
             </div>
+            <label for="nav-toggle" class="icon-burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
         </nav>
 
         <!-- -------------Hero Content------------ -->
@@ -43,11 +50,11 @@
             <div class="hero-images">
                 <!-- --------Bouncing images-------- -->
                 <img 
-                src="./props/svg/01-hero_section/02-left-man.svg" alt="left-guitar"
+                src="./props/svg/01-hero_section/02-left-man.svg" alt="left-man"
                 class="left-guitar"
                 >
-                <img src="./props/svg/01-hero_section/03-right-man.svg" alt="right-guitar"
-                class="right-guitar"
+                <img src="./props/svg/01-hero_section/03-right-man.svg" alt="right-man"
+                class="right-man"
                 >
             </div>
 
@@ -58,7 +65,7 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Harum tempore esse distinctio incidunt modi ?</p>
 
             <div class="download-btn btn">
-              <img src="./props/svg/01-hero_section/signal.svg" alt="signal"
+              <img src="./props/svg/01-hero_section/04-signal-wave.svg" alt="signal"
               class="signal">
 
               <a href="#">Download Now</a>
@@ -84,54 +91,54 @@
                 <div class="app-servers">
                     <div class="server-1 server" style="background-color:#00ffd1">
                         <img 
-                         src="./props/svg/2-app_section/01-server_section/joker.svg"
+                         src="./props/svg/2-app_section/01-server_section/01-beared.svg"
                          alt="avatar"
                          style="height:100%;width: 100%; border-radius: 10px;">
                     </div>
 
                     <div class="server-2 server" style="background-color:#2a9d8f">
-                        <img src="./props/svg/2-app_section/01-server_section/Goku.svg"
+                        <img src="./props/svg/2-app_section/01-server_section/02-rocket.svg"
                          alt="avatar" 
                          style="height:100%; border-radius: 10px;">
                    </div>
    
                    <div class="server-3 server" style="background-color:#e9c46a">
-                       <img src="./props/svg/2-app_section/01-server_section/hanuman.svg"
+                       <img src="./props/svg/2-app_section/01-server_section/03-dashboard.svg"
                         alt="avatar" 
                         style="height:100% ; width: 100%; border-radius: 10px;">
                   </div>
    
                   <div class="server-4 server" style="background-color:#f4a261">
-                   <img src="./props/svg/2-app_section/01-server_section/hiphop.svg"
+                   <img src="./props/svg/2-app_section/01-server_section/04-learning.svg"
                     alt="avatar" 
                     style="height:100%; border-radius: 10px;">
                   </div>
    
                  <div class="server-5 server" style="background-color:#ef6f51">
-                 <img src="./props/svg/2-app_section/01-server_section/marshmello.svg"
+                 <img src="./props/svg/2-app_section/01-server_section/05-hologram.svg"
                   alt="avatar" 
                   style="height:100% ; width: 100%; border-radius: 10px;">
                  </div>
    
                 <div class="server-6 server" style="background-color:#e63946">
-                <img src="./props/svg/2-app_section/01-server_section/shiv.svg"
+                <img src="./props/svg/2-app_section/01-server_section/06-strategy.svg"
                 alt="avatar" 
                 style="height:100% ; width:100% ; border-radius: 10px;">
                 </div>
    
                  <div class="server-7 server" style="background-color:#bfffa9">
-                  <img src="./props/svg/2-app_section/01-server_section/Skull.svg"
+                  <img src="./props/svg/2-app_section/01-server_section/07-chemicals.svg"
                  alt="avatar" 
-                 style="height:100%;border-radius: 10px;">
+                 style="height:100%;width:100%;border-radius: 10px;">
                 </div>
                 
                <div class="server-8 server" style="background-color:#a8dadc">
-               <img src="./props/svg/2-app_section/01-server_section/yoyo.svg"
+               <img src="./props/svg/2-app_section/01-server_section/08-timer.svg"
                 alt="avatar" 
                style="height:100%; border-radius: 10px;">
                </div>
                 </div>
-                <img src="./props/svg/2-app_section/01-server_section/logo.svg" 
+                <img src="./props/svg/2-app_section/01-server_section/09-logo.svg" 
                 alt="app-logo"
                 class="app-logo"
                 >
@@ -143,11 +150,11 @@
 
                    <div class="team-info">
                        <div class="team-dp">
-                           <img src="./props/svg/2-app_section/02-contacts_section/joker.svg" 
-                           alt="joker">
+                           <img src="./props/svg/2-app_section/02-contacts_section/01-beared.svg" 
+                           alt="avatar">
                        </div>
                        <div class="team-info-text">
-                           <h5>Joker's Team</h5>
+                           <h5>John's Team</h5>
                            <br>
                            <h6>App Team</h6>
                            <br>
