@@ -317,23 +317,23 @@
     }
 
     .hero-images{
-        margin: 35%;
+        margin-top: 20%;
     }
 
     .hero-images img{
-        width:30vw;
+        width:20vw;
     }
 
     .hero-desc{
-        top: 65%;
+        top: 55%;
     }
 
     .hero-desc p{
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     .download-btn{
-        margin-top: 10%;
+        margin-top: 5%;
         transform: scale(0.7);
     }
 
@@ -362,5 +362,31 @@
 
     /* =============== About-Section =================================== */
     
+    .about-section-content img{
+        margin: 15px 50px;
+    }
+
+    .about-section-content p{
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    /* ==============Support-Section ========================================= */
+
+    .support-section{
+        height: 700px;
+    }
+
+    .support-section h2{
+        font-size: 40px;
+    }
+
+    .support-article {
+        margin-top: 5%;
+        width: 300px;
+        height: 500px;
+        padding: 0;
+    }
+
 }
 
